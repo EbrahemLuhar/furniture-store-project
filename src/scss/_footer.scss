@@ -1,0 +1,89 @@
+footer {
+    background: $darkgray;
+    color: $lightgray;
+  .container {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    .row {
+      padding-bottom: 10px;
+        .row-padding {
+          padding: 0 10px;
+
+          h6 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            padding-bottom: 5px;
+          }
+
+          .footer-link {
+            text-decoration: none;
+            display: block;
+            color: $lightgray;
+            font-size: 0.8rem;
+            line-height: 1.7;
+            transition: 0.2s;
+
+            &:hover {
+              color: $darkyellow;
+            }
+          }
+
+          span {
+            text-decoration: none;
+            display: block;
+            color: $lightgray;
+            font-size: 0.9rem;
+            line-height: 1.7;
+            font-weight: 400;
+            letter-spacing: 1px;
+          }
+
+          .social-media {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+
+            .social-link {
+              font-size: 2rem;
+              padding: 0 8px;
+              color: $lightgray;
+              transition: 0.2s;
+
+              &:hover {
+                color: $darkyellow;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+@media only screen and (max-width: 991px) {
+  // Fix carousel here
+}
+
+@media only screen and (max-width: 767px) {
+  footer {
+  .container {
+    .row {
+      .row-padding { 
+        .social-media {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}
+}
+
+@media only screen and (max-width: 575px) {
+  // Fix carousel here
+}

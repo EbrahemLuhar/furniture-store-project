@@ -1,0 +1,249 @@
+#top-section {
+  padding-top: 56px;
+
+  .container {
+    .top-container {
+      padding: 0 0 40px;
+
+      .carousel-text {
+        font-size: 3rem;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      .carousel-caption {
+        text-shadow: 0px 0px 4px #000000;
+      }
+
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        height: 100px;
+        width: 100px;
+        outline: black;
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        background-image: none;
+        text-shadow: 0px 0px 4px #000000;
+      }
+
+      .carousel-control-next-icon:after {
+        content: ">";
+        font-size: 55px;
+        font-weight: bold;
+        color: white;
+      }
+
+      .carousel-control-prev-icon:after {
+        content: "<";
+        font-size: 55px;
+        font-weight: bold;
+        color: white;
+      }
+
+      .carousel-item {
+        text-align: center !important;
+      }
+
+      .shop-info {
+        padding-top: 45px;
+
+        .info-wrap {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding-bottom: 10px;
+
+          .info-icon {
+            background: transparent;
+            border-radius: 15px;
+            border: 2px solid $bluegray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .fas {
+              font-size: 1.9rem;
+              padding: 12px 10px;
+              color: $bluegray;
+            }
+          }
+
+          .info-text {
+            padding-left: 10px;
+            .bold-text {
+              padding: 0;
+              margin: 0;
+              line-height: 1.5;
+              font-weight: 600;
+              font-size: 0.9rem;
+            }
+
+            .small-text {
+              font-weight: 400;
+              padding: 0;
+              margin: 0;
+              line-height: 1;
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  #top-section {
+    .container {
+      .top-container {
+        .carousel-text {
+          font-size: 3rem;
+        }
+        .carousel-inner {
+          height: 500px;
+          .carousel-item {
+            height: 100%;
+            img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              max-width: 100%;
+              height: 500px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #top-section {
+    .container {
+      .top-container {
+        .carousel-text {
+          font-size: 3rem;
+          line-height: 1.2;
+        }
+        .carousel-inner {
+          height: 400px;
+          .carousel-item {
+            height: 100%;
+            img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              max-width: 100%;
+              height: 400px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  // Fix carousel here
+}
+
+@media only screen and (max-width: 575px) {
+  #top-section {
+    .container {
+      .top-container {
+        .carousel-text {
+          font-size: 3rem;
+        }
+        .carousel-inner {
+          height: 300px;
+          .carousel-item {
+            height: 100%;
+            img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              max-width: 100%;
+              height: 300px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  #top-section {
+    .container {
+      .top-container {
+        .carousel-text {
+          font-size: 2rem;
+          line-height: 1.2;
+          padding: 25px 0;
+        }
+        .carousel-caption {
+          h3 {
+            font-size: 1.2rem;
+            line-height: 1;
+          }
+
+          p {
+            font-size: 0.8rem;
+            line-height: 1.2;
+          }
+        }
+        .carousel-inner {
+          height: 250px;
+          .carousel-item {
+            height: 100%;
+            img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              max-width: 100%;
+              height: 250px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-height: 420px) {
+  #top-section {
+    .container {
+      .top-container {
+        padding: 0 15%;
+        .carousel-text {
+          font-size: 2rem;
+          line-height: 1.2;
+          padding: 15px 0;
+        }
+        .carousel-caption {
+          h3 {
+            font-size: 1.2rem;
+            line-height: 1;
+          }
+
+          p {
+            font-size: 0.8rem;
+            line-height: 1.2;
+          }
+        }
+        .carousel-inner {
+          height: 220px;
+          .carousel-item {
+            height: 100%;
+            img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              max-width: 100%;
+              height: 220px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

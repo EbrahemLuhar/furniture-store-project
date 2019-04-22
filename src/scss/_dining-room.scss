@@ -1,0 +1,26 @@
+#link-by-department {
+    margin-top: 56px;
+    text-align: center;
+    border-bottom: 1px solid $bluegray;
+    margin-bottom: 10px;
+  
+    .container {
+      .row {
+        padding-bottom: 12px;
+        .col-sm-4 {
+          a {
+            text-decoration: none;
+            color: $darkgray;
+            padding: 6px 16px 9px 16px;
+            vertical-align: middle;
+            border-radius: 5px;
+            transition: all 250ms ease-in-out;
+  
+            &:hover {
+              background: $lightyellow;
+            }
+          }
+        }
+      }
+    }
+  }

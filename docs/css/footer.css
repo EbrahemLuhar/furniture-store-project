@@ -1,0 +1,7 @@
+footer {
+  background: #3E3F43; }
+  footer .container {
+    padding-top: 0px;
+    padding-bottom: 20px; }
+    footer .container .row .col-sm-4 .row-padding {
+      padding: 0 10px; }
